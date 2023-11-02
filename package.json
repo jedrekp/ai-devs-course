@@ -1,0 +1,16 @@
+{
+  "name": "ai-devs",
+  "version": "1.0.0",
+  "description": "ai-devs-course",
+  "main": "src/index.js",
+  "author": "jedrekp",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv-flow": "^4.0.0"
+  }
+}
