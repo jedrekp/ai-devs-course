@@ -1,6 +1,5 @@
 export const helloApiFn = (inputData) => {
-    const answer = {
+    return {
         answer: inputData.cookie
     }
-    return answer
 }

@@ -1,0 +1,1 @@
+export const prettyJsonStringify = (object) => JSON.stringify(object, null, '\t')

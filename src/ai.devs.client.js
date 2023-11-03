@@ -16,5 +16,8 @@ export class AiDevsClient {
     static submitAnswer(taskToken, data) {
         return axios.post(`https://zadania.aidevs.pl/answer/${taskToken}`, data)
             .then(res => res.data)
+            .catch(err => {
+                throw new Error(err.data)
+            })
     }
 }
